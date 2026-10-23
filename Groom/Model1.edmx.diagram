@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="76410e8f243d432f8dfbbdc8194a0303" Name="Diagram1">
+        <EntityTypeShape EntityType="GroomingSalonModel.Appointments" Width="1.5" PointX="7.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.AppointmentServices" Width="1.5" PointX="12.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.Clients" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.Employees" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.Payments" Width="1.5" PointX="9.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.Pets" Width="1.5" PointX="10.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.PetTypes" Width="1.5" PointX="8.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.Roles" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.Services" Width="1.5" PointX="10.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroomingSalonModel.Users" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Appointme__Appoi__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Appointme__Clien__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Appointme__Emplo__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Appointme__PetID__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Payments__Appoin__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Appointme__Servi__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Clients__UserID__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Pets__ClientID__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Pets__TypeID__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="GroomingSalonModel.FK__Users__RoleID__3B75D760" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GroomingSalonModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

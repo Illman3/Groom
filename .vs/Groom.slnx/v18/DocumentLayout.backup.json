@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\skilm\\source\\repos\\Groom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|c:\\users\\skilm\\source\\repos\\groom\\groom\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\diagrammpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\diagrammpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\diagrammpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\diagrammpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\userstabpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\userstabpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\servicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\servicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\paymentstabpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\paymentstabpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\changepasspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\changepasspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\adduserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\adduserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\addservicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\addservicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\addpaymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\addpaymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\changepasspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\changepasspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|C:\\Users\\skilm\\source\\repos\\Groom\\groom\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DD432-7D5B-4563-85D2-5A40467DB2FE}|Groom\\Groom.csproj|solutionrelative:groom\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dictionary.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Dictionary.xaml",
+              "RelativeDocumentMoniker": "Groom\\Dictionary.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Dictionary.xaml",
+              "RelativeToolTip": "Groom\\Dictionary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:41:58.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DiagrammPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\DiagrammPage.xaml.cs",
+              "RelativeDocumentMoniker": "Groom\\Pages\\DiagrammPage.xaml.cs",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\DiagrammPage.xaml.cs",
+              "RelativeToolTip": "Groom\\Pages\\DiagrammPage.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwL0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T21:08:49.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersTabPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\UsersTabPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\UsersTabPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\UsersTabPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\UsersTabPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:10:53.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\UserPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\UserPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\UserPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\UserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:10:50.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicePage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\ServicePage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\ServicePage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\ServicePage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\ServicePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:10:47.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\RegPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\RegPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\RegPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\RegPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:10:41.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiagrammPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\DiagrammPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\DiagrammPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\DiagrammPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\DiagrammPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:08:53.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentsTabPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\PaymentsTabPage1.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\PaymentsTabPage1.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\PaymentsTabPage1.xaml",
+              "RelativeToolTip": "Groom\\Pages\\PaymentsTabPage1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:10:29.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddUserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AddUserPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\AddUserPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AddUserPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\AddUserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:10:05.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddServicePage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AddServicePage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\AddServicePage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AddServicePage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\AddServicePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:10:00.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddPaymentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AddPaymentPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\AddPaymentPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AddPaymentPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\AddPaymentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:09:42.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Pages\\AdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "Groom\\Pages\\AdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AdminPage.xaml.cs",
+              "RelativeToolTip": "Groom\\Pages\\AdminPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T21:08:47.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\AdminPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:08:45.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangePassPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\ChangePassPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\ChangePassPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\ChangePassPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\ChangePassPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T21:02:48.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Groom\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Groom\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-22T17:59:38.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChangePassPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\ChangePassPage.xaml.cs",
+              "RelativeDocumentMoniker": "Groom\\Pages\\ChangePassPage.xaml.cs",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\ChangePassPage.xaml.cs",
+              "RelativeToolTip": "Groom\\Pages\\ChangePassPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwFMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T21:02:42.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Pages\\LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Groom\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Groom\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAqwLgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T21:02:39.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Groom\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\App.xaml.cs",
+              "RelativeToolTip": "Groom\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T18:26:10.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Core.cs",
+              "RelativeDocumentMoniker": "Groom\\Core.cs",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\Core.cs",
+              "RelativeToolTip": "Groom\\Core.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T17:50:31.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Groom\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\skilm\\source\\repos\\Groom\\Groom\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Groom\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwCYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T17:43:40.644Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

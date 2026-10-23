@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище GroomingSalonModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Appointments">
+    <Key>
+      <PropertyRef Name="AppointmentID" />
+    </Key>
+    <Property Name="AppointmentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientID" Type="int" Nullable="false" />
+    <Property Name="PetID" Type="int" Nullable="false" />
+    <Property Name="EmployeeID" Type="int" Nullable="false" />
+    <Property Name="AppointmentDate" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AppointmentServices">
+    <Key>
+      <PropertyRef Name="ApptServiceID" />
+    </Key>
+    <Property Name="ApptServiceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AppointmentID" Type="int" Nullable="false" />
+    <Property Name="ServiceID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Position" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="HireDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payments">
+    <Key>
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="PaymentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AppointmentID" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="PaymentDate" Type="datetime" Nullable="false" />
+    <Property Name="PaymentMethod" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pets">
+    <Key>
+      <PropertyRef Name="PetID" />
+    </Key>
+    <Property Name="PetID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientID" Type="int" Nullable="false" />
+    <Property Name="TypeID" Type="int" Nullable="false" />
+    <Property Name="Nickname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Breed" Type="nvarchar" MaxLength="50" />
+    <Property Name="BirthDate" Type="date" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="PetTypes">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="ServiceID" />
+    </Key>
+    <Property Name="ServiceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="DurationMinutes" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="RoleID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Appointme__Appoi__52593CB8">
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AppointmentServices" Type="Self.AppointmentServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Appointments">
+        <PropertyRef Name="AppointmentID" />
+      </Principal>
+      <Dependent Role="AppointmentServices">
+        <PropertyRef Name="AppointmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__Clien__4D94879B">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__Emplo__4F7CD00D">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__PetID__4E88ABD4">
+    <End Role="Pets" Type="Self.Pets" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pets">
+        <PropertyRef Name="PetID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="PetID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__Servi__534D60F1">
+    <End Role="Services" Type="Self.Services" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AppointmentServices" Type="Self.AppointmentServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="ServiceID" />
+      </Principal>
+      <Dependent Role="AppointmentServices">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Clients__UserID__3F466844">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Clients" Type="Self.Clients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Clients">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payments__Appoin__571DF1D5">
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Payments" Type="Self.Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Appointments">
+        <PropertyRef Name="AppointmentID" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="AppointmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pets__ClientID__44FF419A">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Pets" Type="Self.Pets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="Pets">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pets__TypeID__45F365D3">
+    <End Role="PetTypes" Type="Self.PetTypes" Multiplicity="1" />
+    <End Role="Pets" Type="Self.Pets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PetTypes">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Pets">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__RoleID__3B75D760">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище GroomingSalonModelContainer">
+    <EntitySet Name="Appointments" EntityType="Self.Appointments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AppointmentServices" EntityType="Self.AppointmentServices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payments" EntityType="Self.Payments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pets" EntityType="Self.Pets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PetTypes" EntityType="Self.PetTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Services" EntityType="Self.Services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Appointme__Appoi__52593CB8" Association="Self.FK__Appointme__Appoi__52593CB8">
+      <End Role="Appointments" EntitySet="Appointments" />
+      <End Role="AppointmentServices" EntitySet="AppointmentServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__Clien__4D94879B" Association="Self.FK__Appointme__Clien__4D94879B">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__Emplo__4F7CD00D" Association="Self.FK__Appointme__Emplo__4F7CD00D">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__PetID__4E88ABD4" Association="Self.FK__Appointme__PetID__4E88ABD4">
+      <End Role="Pets" EntitySet="Pets" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__Servi__534D60F1" Association="Self.FK__Appointme__Servi__534D60F1">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="AppointmentServices" EntitySet="AppointmentServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Clients__UserID__3F466844" Association="Self.FK__Clients__UserID__3F466844">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Clients" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payments__Appoin__571DF1D5" Association="Self.FK__Payments__Appoin__571DF1D5">
+      <End Role="Appointments" EntitySet="Appointments" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pets__ClientID__44FF419A" Association="Self.FK__Pets__ClientID__44FF419A">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Pets" EntitySet="Pets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pets__TypeID__45F365D3" Association="Self.FK__Pets__TypeID__45F365D3">
+      <End Role="PetTypes" EntitySet="PetTypes" />
+      <End Role="Pets" EntitySet="Pets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleID__3B75D760" Association="Self.FK__Users__RoleID__3B75D760">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,45 @@
+﻿<Page x:Class="Groom.Pages.AddPaymentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:charts="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddPaymentPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Дата платежа" Grid.Row="0" Grid.Column="0" Margin="10" FontSize="16" VerticalAlignment="Center"/>
+        <TextBlock Text="Сумма" Grid.Row="1" Grid.Column="0" Margin="10" FontSize="16" VerticalAlignment="Center"/>
+        <TextBlock Text="Способ оплаты" Grid.Row="2" Grid.Column="0" Margin="10" FontSize="16" VerticalAlignment="Center"/>
+        <TextBlock Text="Запись (Клиент)" Grid.Row="3" Grid.Column="0" Margin="10" FontSize="16" VerticalAlignment="Center"/>
+
+        <TextBox x:Name="TBDate" Grid.Row="0" Grid.Column="1" Margin="10" Height="30" ToolTip="Формат: дд.мм.гггг чч:мм"/>
+        <TextBox x:Name="TBAmount" Grid.Row="1" Grid.Column="1" Margin="10" Height="30"/>
+
+        <ComboBox x:Name="CBPaymentMethod" Grid.Row="2" Grid.Column="1" Margin="10" Height="30">
+            <ComboBoxItem Content="Наличные"/>
+            <ComboBoxItem Content="Карта"/>
+            <ComboBoxItem Content="Перевод"/>
+        </ComboBox>
+
+        <ComboBox x:Name="CBAppointment" Grid.Row="3" Grid.Column="1" Margin="10" Height="30" DisplayMemberPath="Display" SelectedValuePath="AppointmentID"/>
+
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="ButtonSave" Content="Сохранить" Width="120" Height="35" Margin="10" Click="ButtonSave_Click"/>
+            <Button x:Name="ButtonClean" Content="Очистить" Width="120" Height="35" Margin="10" Click="ButtonClean_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

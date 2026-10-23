@@ -1,0 +1,43 @@
+﻿<Page x:Class="Groom.Pages.DiagrammPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:charts="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+      xmlns:wfh="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+      xmlns:local="clr-namespace:Groom.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DiagrammPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+            <TextBlock Text="Клиент:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox x:Name="CmbUser" Width="200" Margin="0,0,15,0" DisplayMemberPath="FullName" SelectionChanged="UpdateChart"/>
+
+            <TextBlock Text="Тип диаграммы:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox x:Name="CmbDiagram" Width="150" Margin="0,0,15,0" SelectionChanged="UpdateChart"/>
+
+            <Button x:Name="BtnExportExcel" Content="Экспорт в Excel" Width="120" Margin="0,0,10,0" Click="BtnExportExcel_Click"/>
+            <Button x:Name="BtnExportWord" Content="Экспорт в Word" Width="120" Click="BtnExportWord_Click"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="5">
+            <wfh:WindowsFormsHost>
+                <charts:Chart x:Name="ChartPayments">
+                    <charts:Chart.Legends>
+                        <charts:Legend Name="Legend1" />
+                    </charts:Chart.Legends>
+                    <charts:Chart.Titles>
+                        <charts:Title Text="Сумма платежей по услугам" />
+                    </charts:Chart.Titles>
+                </charts:Chart>
+            </wfh:WindowsFormsHost>
+        </Grid>
+    </Grid>
+</Page>
